@@ -8,9 +8,10 @@ export function NumberOfPeople() {
         <label for="num-people" id="num-people-label"></label>
         <input
           id="num-people"
-          type="text"
+          type="number"
           placeholder="1"
           className="main-input"
+          min="1"
         ></input>
       </form>
     </div>

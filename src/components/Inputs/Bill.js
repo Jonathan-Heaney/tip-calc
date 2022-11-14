@@ -8,8 +8,9 @@ function Bill() {
         <label for="bill" id="bill-label"></label>
         <input
           id="bill"
-          type="text"
+          type="number"
           placeholder="0"
+          min="0"
           className="main-input"
         ></input>
       </form>
