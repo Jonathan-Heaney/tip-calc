@@ -38,7 +38,48 @@ label:before {
   text-align: right;
 }
 
+.main-input::placeholder {
+  color: hsl(184, 14%, 56%);
+}
+
+.main-input:focus,
+#custom:focus {
+  outline-color: hsl(172, 67%, 45%);
+}
+
 .input-label {
   font-size: 16px;
+  color: hsl(186, 14%, 43%);
+  margin-bottom: 10px;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.tip-percentage {
+  font-size: 20px;
+  font-family: inherit;
+  border: none;
+  padding: 5px 1rem;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(189, 41%, 97%);
+}
+
+#custom {
+  width: 100%;
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+  text-align: right;
+}
+
+#custom::placeholder {
+  text-align: center;
   color: hsl(186, 14%, 43%);
 }

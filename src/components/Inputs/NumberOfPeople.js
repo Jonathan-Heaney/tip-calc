@@ -9,7 +9,7 @@ export function NumberOfPeople() {
         <input
           id="num-people"
           type="text"
-          placeholder="0"
+          placeholder="1"
           className="main-input"
         ></input>
       </form>
