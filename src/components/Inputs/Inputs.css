@@ -1,0 +1,44 @@
+#inputs {
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+label {
+  position: relative;
+}
+
+label:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+}
+
+#bill-label:before {
+  background: url('/images/icon-dollar.svg') center / contain no-repeat;
+}
+
+#num-people-label:before {
+  background: url('/images/icon-person.svg') center / contain no-repeat;
+}
+
+.main-input {
+  width: 100%;
+  padding: 8px 16px;
+  background-color: hsl(189, 41%, 97%);
+  border: none;
+  border-radius: 5px;
+  color: hsl(183, 100%, 15%);
+  font-family: inherit;
+  font-size: 20px;
+  text-align: right;
+}
+
+.input-label {
+  font-size: 16px;
+  color: hsl(186, 14%, 43%);
+}
